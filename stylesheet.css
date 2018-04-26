@@ -1,0 +1,67 @@
+body {
+  background-image: url(images/rawpixel-com-594859-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(images/rawpixel-com-594859-unsplash.jpg);
+  }
+}
+
+body h1 {
+  color:#333333;
+  font-family: Gulim;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+}
+
+.title {
+  padding-top: 100px;
+}
+
+.avater {
+  text-align: center;
+}
+
+.avater img {
+  border-radius: 50%;
+}
+
+.icons {
+  float:left;
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.icons a {
+  color:#333;
+}
+
+.icons li {
+  float:left;
+}
+
+.icon1 {
+  margin-left: 150px;
+  margin-right: 50px;
+}
+
+.icon2 {
+  margin-right:50px;
+}
+
+.icon3 {
+  margin-right: 50px;
+}
+
+.icon4 {
+  margin-right:50px;
+}
