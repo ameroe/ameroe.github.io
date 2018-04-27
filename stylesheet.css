@@ -5,12 +5,6 @@ body {
   background-attachment: fixed;
 }
 
-@media only screen and (max-width: 767px) {
-  body {
-    background-image: url(images/rawpixel-com-594859-unsplash.jpg);
-  }
-}
-
 body h1 {
   color:#333333;
   font-family: Gulim;
@@ -21,6 +15,7 @@ body h1 {
 
 .title {
   padding-top: 100px;
+  opacity: 0.6;
 }
 
 .avater {
@@ -29,38 +24,33 @@ body h1 {
 
 .avater img {
   border-radius: 50%;
+  opacity: 0.9;
 }
 
 .icons {
-  float:left;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 ul {
   list-style: none;
 }
 
-.icons a {
+.icon {
+  width:800px;
+  margin:30px auto;
+}
+
+
+.icon a {
   color:#333;
 }
 
-.icons li {
+.icon li {
   float:left;
+  font-size:25px;
+  margin-right:20px;
 }
 
-.icon1 {
-  margin-left: 150px;
-  margin-right: 50px;
-}
-
-.icon2 {
-  margin-right:50px;
-}
-
-.icon3 {
-  margin-right: 50px;
-}
-
-.icon4 {
-  margin-right:50px;
+.icon li :hover {
+  background-color: #ead9ff;
 }
